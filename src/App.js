@@ -1,5 +1,14 @@
+import { Notification, Section } from 'rbx';
+import './App.scss';
+
 const App = () => {
-  return <p>Javascript Notes</p>;
+  return(
+    <Section>
+      <Notification color="success">
+        Javascript Notes!
+      </Notification>
+    </Section>
+  )
 }
 
 export default App;
