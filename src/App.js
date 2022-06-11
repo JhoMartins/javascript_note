@@ -1,12 +1,12 @@
 import { Fragment } from 'react';
 import { Notification, Section } from 'rbx';
 import './App.scss';
-import HomeScreen from './screens/home';
+import Router from './router';
 
 const App = () => {
   return(
     <Fragment>
-      <HomeScreen/>
+      <Router/>
     </Fragment>
   )
 }
